@@ -10,9 +10,9 @@
         });
         wx.ready(function () {
             let shareData = {
-                title: "{{ title }}",
-                desc: "{{ desc }}",
-                link: "{{ link }}",
+                title: "{{ title }}" || document.title,
+                desc: "{{ desc }}" || document.querySelector('meta[name="description"]').content,
+                link: "{{ link }}" || location.href,
                 imgUrl: "{{ img }}"
             };
             {%- for api_name in js_api_list %}

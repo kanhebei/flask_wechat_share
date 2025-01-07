@@ -4,8 +4,10 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "flask_wechat_share"
-version = "0.0.3"
+version = "0.0.6"
 description = "wechat share"
+long-description = "README.md"
+long-description-content-type = "text/markdown"
 license = { file = "LICENSE" }
 authors = [{ name = "wumao", email = "549240290@qq.com" }]
 classifiers = ["License :: OSI Approved :: MIT License"]

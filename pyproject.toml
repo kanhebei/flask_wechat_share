@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "flask_wechat_share"
-version = "0.0.6"
+version = "0.0.8"
 description = "wechat share"
 readme = "README.md"
 license = { file = "LICENSE" }

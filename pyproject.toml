@@ -6,8 +6,7 @@ build-backend = "flit_core.buildapi"
 name = "flask_wechat_share"
 version = "0.0.6"
 description = "wechat share"
-long-description = "README.md"
-long-description-content-type = "text/markdown"
+readme = "README.md"
 license = { file = "LICENSE" }
 authors = [{ name = "wumao", email = "549240290@qq.com" }]
 classifiers = ["License :: OSI Approved :: MIT License"]
@@ -15,3 +14,6 @@ dependencies = [
     "flask>=3.1.0",
     "requests>=2.32.3"
 ]
+
+[project.urls]
+Source = "https://github.com/kanhebei/flask_wechat_share"
